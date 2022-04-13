@@ -1,0 +1,15 @@
+CRITICAL - 2022-04-10 10:26:39 --> Undefined property: App\Controllers\Home::$load
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\BaseController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\toko_ikan4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-10 10:29:19 --> Undefined property: App\Controllers\Home::$load
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\BaseController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

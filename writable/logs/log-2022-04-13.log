@@ -1,0 +1,8 @@
+ERROR - 2022-04-13 03:01:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '),
+	CONSTRAINT `transaksi_id_barang_foreign` FOREIGN KEY (`id_barang`) REFERE...' at line 13
+ERROR - 2022-04-13 03:30:08 --> Can't create table `toko_ikan`.`transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-13 03:30:29 --> Can't create table `toko_ikan`.`transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-13 03:37:32 --> Error connecting to the database: Unknown database 'toko_ikan'
+ERROR - 2022-04-13 03:39:43 --> Can't create table `toko_ikan`.`transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-13 03:50:25 --> Can't create table `toko_ikan`.`transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-04-13 03:53:57 --> Can't create table `toko_ikan`.`transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
