@@ -1,0 +1,69 @@
+CRITICAL - 2022-04-17 12:25:19 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 12:25:32 --> Invalid file: logout.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('logout.php')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('logout', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(23): view('logout')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->logout()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 12:25:45 --> Invalid file: logout.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('logout.php')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('logout', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(23): view('logout')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->logout()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 12:26:10 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 12:51:35 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:02:41 --> Invalid file: logout.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('logout.php')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('logout', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(23): view('logout')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->logout()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 13:02:49 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:03:46 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-17 13:16:38 --> Undefined variable: _request
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,43 @@
+CRITICAL - 2022-05-08 03:49:50 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 03:51:24 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 03:51:28 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 03:51:34 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 04:38:17 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\toko_ikan4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Barang/create')
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Barang/create')
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

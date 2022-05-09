@@ -1,0 +1,478 @@
+CRITICAL - 2022-05-07 11:45:18 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 11:57:14 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:40 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:40 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:41 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:41 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:41 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:42 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:42 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:42 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:42 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:00:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:05:16 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:05:17 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:06:19 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:08:45 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:13:26 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:13:27 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:18:47 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:40 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:41 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:43 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:44 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:51 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:55 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:19:58 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:30:58 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:42:47 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:42:48 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:46:53 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:50:21 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:50:22 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:50:23 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:50:23 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 12:54:20 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:04 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:05 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:06 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:06 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:07 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:07 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:07 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:02:24 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:36:27 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 13:38:47 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 22:14:06 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 22:15:47 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-07 23:17:15 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\xampp\htdocs\toko_ikan4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Validati...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Validati...')
+#3 [internal function]: spl_autoload_call('Config\\Validati...')
+#4 C:\xampp\htdocs\toko_ikan4\system\Config\Factories.php(136): class_exists('Config\\Validati...')
+#5 C:\xampp\htdocs\toko_ikan4\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Validation')
+#6 C:\xampp\htdocs\toko_ikan4\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\toko_ikan4\system\Config\Services.php(656): config('Validation')
+#8 C:\xampp\htdocs\toko_ikan4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::validation(NULL, false)
+#9 C:\xampp\htdocs\toko_ikan4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('validation', Array)
+#10 C:\xampp\htdocs\toko_ikan4\system\Config\Services.php(653): CodeIgniter\Config\BaseService::getSharedInstance('validation', NULL)
+#11 C:\xampp\htdocs\toko_ikan4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::validation()
+#12 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(10): CodeIgniter\Config\BaseService::__callStatic('validation', Array)
+#13 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(809): App\Controllers\Barang->__construct()
+#14 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
