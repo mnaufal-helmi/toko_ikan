@@ -14,17 +14,16 @@ $session = session();
         <li class="nav-item active">
           <a class="nav-link" href="<?= site_url('home/index') ?>">Home <span class="sr-only">(current)</span></a>
         </li>
-
+      <?php if (session()->get('role')==0): ?>
         <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Barang
-          </a>
+          </a> 
           <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="<?= site_url('barang/index') ?>">List Barang</a></li>
             <li><a class="dropdown-item" href="<?= site_url('barang/create') ?>">Tambah Barang</a></li>
-          </ul>
+          </ul> 
         </li>
-
 
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropwdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,6 +33,11 @@ $session = session();
             <a class="dropdown-item" href=" site_url('barang/create') ?>">Tambah Barang</a>
           </div>
         </li> -->
+        <?php else: ?>
+        <li class="nav-item">
+        <a class="nav-link" href="<?= site_url('etalase/index') ?>">Etalase </a>
+        </li>
+        <?php endif ?>
       </ul>
     <?php endif ?>
     <div class="form-inline my-2 my-lg-0">

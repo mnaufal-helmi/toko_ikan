@@ -24,6 +24,7 @@ class Filters extends BaseConfig
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'auth'          => \App\Filters\Auth::class,
+        'admin'         => \App\Filters\Admin::class,
     ];
 
     /**
@@ -66,5 +67,11 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'admin' => [
+            'before'=>[
+                'barang/*',
+            ]
+        ]
+    ];
 }

@@ -12,7 +12,10 @@ class Barang extends BaseController
     }
     public function index()
     {
-        return view('barang/index');
+        $barangModel = new \App\Models\BarangModel();
+        $barangs = $barangModel->findAll();
+
+        return view('barang/index', ['barangs' => $barangs,]);
     }
     public function view()
     {
@@ -24,7 +27,7 @@ class Barang extends BaseController
         //cek seperti var dump(cekError)
         // print_r($id);
         // //print_r($barang);
-        // exit(); 
+        // exit();
 
         return view('barang/view.php', [
             'barang' => $barang,
@@ -62,8 +65,46 @@ class Barang extends BaseController
     }
     public function update()
     {
+        $id = $this->request->uri->getSegment(3);
+        $barangModel = new \App\Models\BarangModel();
+
+        $barang = $barangModel->find($id);
+
+        if ($this->request->getPost()) {
+            $data = $this->request->getPost();
+            $this->validation->run($data, 'barangupdate');
+            $errors = $this->validation->getErrors();
+
+
+            if (!$errors) {
+                $b = new \App\Entities\Barang();
+                $b->id = $id;
+                $b->fill($data);
+
+                if ($this->request->getFile('gambar')->isValid()) {
+                    $b->gambar = $this->request->getFile('gambar');
+                }
+                $b->updated_by = $this->session->get('id');
+                $b->updated_date = date("Y-m-d H:i:s");
+
+                $barangModel->save($b);
+                $segments = ['Barang', 'view', $id];
+
+                return redirect()->to(site_url($segments));
+            }
+        }
+        return view('barang/update', [
+            'barang' => $barang,
+        ]);
     }
+
     public function delete()
     {
+        $id = $this->request->uri->getSegment(3);
+
+        $modelBarang = new \App\Models\BarangModel();
+        $delete = $modelBarang->delete($id);
+
+        return redirect()->to(site_url('barang/index'));
     }
 }

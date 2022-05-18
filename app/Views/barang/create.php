@@ -4,13 +4,13 @@
 
 
 $nama = [
-    'nama' => 'nama',
+    'name' => 'nama',
     'id' => 'nama',
     'value' => null,
     'class' => 'form-control',
 ];
 $harga = [
-    'nama' => 'harga',
+    'name' => 'harga',
     'id' => 'harga',
     'value' => null,
     'class' => 'form-control',
@@ -18,7 +18,7 @@ $harga = [
     'min' =>  0,
 ];
 $stok = [
-    'stok' => 'stok',
+    'name' => 'stok',
     'id' => 'stok',
     'value' => null,
     'class' => 'form-control',
@@ -27,7 +27,7 @@ $stok = [
 
 ];
 $gambar = [
-    'nama' => 'gambar',
+    'name' => 'gambar',
     'id' => 'gambar',
     'value' => null,
     'class' => 'form-control',
@@ -35,7 +35,7 @@ $gambar = [
 
 ];
 $submit = [
-    'nama' => 'submit',
+    'name' => 'submit',
     'id' => 'submit',
     'value' => 'Submit',
     'class' => 'btn btn-success',

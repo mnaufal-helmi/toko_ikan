@@ -100,7 +100,7 @@ class Validation
         ],
         'gambar' => [
             'rules' => 'uploaded[gambar]',
-        ]
+        ],
     ];
 
     public $barang_errors = [
@@ -118,7 +118,37 @@ class Validation
         ],
         'gambar' => [
             'uploaded' => '{field} Harus Di upload',
-        ]
+        ],
 
+    ];
+
+    public $barangupdate = [
+        'nama' => [
+            'rules' => 'required|min_length[5]',
+        ],
+        'harga' => [
+            'rules' => 'required|is_natural',
+        ],
+        'stok' => [
+            'rules' => 'required|is_natural',
+        ],
+        'gambar' => [
+            'rules' => 'uploaded[gambar]',
+        ],
+    ];
+
+    public $barangupdate_errors = [
+        'nama' => [
+            'required' => '{field} Harus diisi',
+            'min_length' => '{field} Minimum 5 Karakter',
+        ],
+        'harga' => [
+            'required' => '{field} Harus diisi',
+            'is_natural' => '{field} Tidak Boleh Negatif',
+        ],
+        'stok' => [
+            'required' => '{field} Harus diisi',
+            'is_natural' => '{field} Tidak Boleh Negatif',
+        ],
     ];
 }

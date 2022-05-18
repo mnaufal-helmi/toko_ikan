@@ -7,3 +7,23 @@ CRITICAL - 2022-05-09 07:57:15 --> Invalid file: barang/index.php
 #5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2022-05-09 10:32:42 --> View themes, no current section.
+#0 C:\xampp\htdocs\toko_ikan4\app\Views\barang\create.php(19): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(61): view('barang/create')
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->create()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 12:07:44 --> Invalid file: barang/index.php
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/index.ph...')
+#1 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#2 C:\xampp\htdocs\toko_ikan4\app\Controllers\Barang.php(15): view('barang/index')
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Barang->index()
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
