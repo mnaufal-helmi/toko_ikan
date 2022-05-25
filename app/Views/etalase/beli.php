@@ -61,7 +61,7 @@ $submit = [
         <div class="col-6">
             <div class="card">
                 <div class="card-body">
-                    <img class="img-fluid" src="<?= base_url('uplods/' . $model->gambar) ?>">
+                    <img class="img-fluid" src="<?= base_url('uploads/' . $model->gambar) ?>">
                     <h1 class="text-success"><?= $model->nama ?></h1>
                     <h4> Harga : <?= $model->harga ?></h4>
                     <h4> Stok : <?= $model->stok ?></h4>
@@ -89,7 +89,7 @@ $submit = [
                 <?= form_input($ongkir) ?>
             </div>
             <div class="text-right">
-                <?= form_submit($submit) ?>
+                <?= form_submit($submit) ?>`
             </div>
             <?= form_close() ?>
         </div>

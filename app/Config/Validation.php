@@ -127,14 +127,12 @@ class Validation
             'rules' => 'required|min_length[5]',
         ],
         'harga' => [
-            'rules' => 'required|is_natural',
+            'rules' =>  'required|is_natural',
         ],
         'stok' => [
             'rules' => 'required|is_natural',
         ],
-        'gambar' => [
-            'rules' => 'uploaded[gambar]',
-        ],
+
     ];
 
     public $barangupdate_errors = [

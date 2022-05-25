@@ -76,6 +76,7 @@ class Barang extends BaseController
             $errors = $this->validation->getErrors();
 
 
+
             if (!$errors) {
                 $b = new \App\Entities\Barang();
                 $b->id = $id;
@@ -91,8 +92,13 @@ class Barang extends BaseController
                 $segments = ['Barang', 'view', $id];
 
                 return redirect()->to(site_url($segments));
+
+                // print_r($id);
+                // print_r($barang);
+                // exit();
             }
         }
+
         return view('barang/update', [
             'barang' => $barang,
         ]);

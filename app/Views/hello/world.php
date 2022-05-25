@@ -6,4 +6,5 @@
     echo session()->get('username');
     ?>
 </h4>
+
 <?= $this->endSection() ?>
