@@ -38,7 +38,7 @@ $submit = [
     'name' => 'submit',
     'id' => 'submit',
     'value' => 'Submit',
-    'class' => 'btn btn-success',
+    'class' => 'btn btn-info',
     'type' => 'submit',
 
 ];

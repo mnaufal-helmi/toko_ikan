@@ -76,7 +76,6 @@ class Barang extends BaseController
             $errors = $this->validation->getErrors();
 
 
-
             if (!$errors) {
                 $b = new \App\Entities\Barang();
                 $b->id = $id;

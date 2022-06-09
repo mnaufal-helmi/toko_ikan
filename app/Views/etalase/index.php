@@ -7,15 +7,15 @@
             <div class="col-4">
                 <div class="card text-center">
                     <div class="card-header">
-                        <span class="text-success"> <strong><?= $m->nama ?></strong></span>
+                        <span class="text-info"> <strong><?= $m->nama ?></strong></span>
                     </div>
                     <div class="card-body">
                         <img class="img-thumbnail" style="max-height : 200px" src="<?= base_url('uploads/' . $m->gambar) ?>" />
-                        <h5 class="mt-3 text-success"><?= "Rp " . number_format($m->harga, 2, ',', '.') ?></h5>
+                        <h5 class="mt-3 text-info"><?= "Rp " . number_format($m->harga, 2, ',', '.') ?></h5>
                         <p class="text-info">Stok : <?= $m->stok ?></p>
-                    </div>
+                    </div>  
                     <div class="card-footer">
-                        <a href="<?= site_url('etalase/beli/' . $m->id) ?>" style="width:100%" class="btn btn-success">beli</a>
+                        <a href="<?= site_url('etalase/beli/' . $m->id) ?>" style="width:100%" class="btn btn-info">beli</a>
                     </div>
                 </div>
             </div>
