@@ -72,7 +72,7 @@ $submit = [
             <h4>Pengiriman</h4>
             <div class="form-group">
                 <label for="provinsi">Pilih provinsi</label>
-                <select class="form-control" id=" provinsi">
+                <select class="form-control" id="provinsi">
                     <option> select Provinsi</option>
                     <?php foreach ($provinsi as $p) : ?>
                         <option value="<?= $p->province_id ?>"> <?= $p->province ?> </option>
@@ -81,13 +81,13 @@ $submit = [
             </div>
             <div class="form-group">
                 <label for="kabupaten">Pilih Kabupaten/kota</label>
-                <select class="form-control"" id=" kabupaten">
+                <select class="form-control" id="kabupaten">
                     <option> select Kabupaten/kota</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="service">Pilih service</label>
-                <select class="form-control"" id=" service">
+                <select class="form-control" id="service">
                     <option> select service</option>
                 </select>
             </div>
@@ -129,7 +129,6 @@ $submit = [
         $("#provinsi").on('change', function() {
             $("#kabupaten").empty();
             var id_province = $(this).val();
-
             $.ajax({
                 url: "<?= site_url('etalase/getCity') ?>",
                 type: 'GET',
@@ -149,6 +148,34 @@ $submit = [
                 },
             });
         });
+        $("#kabupaten").on('change', function() {
+            var id_city = $(this).val();
+            $.ajax({
+                url: "<?= site_url('etalase/getcost') ?>",
+                type: 'GET',
+                data: {
+                    'origin': 126,
+                    'destination': id_city,
+                    'weight': 1000,
+                    //dibuat secara statis antara id_kota/kabupaten dan masa dibuat secara dinamis juga dengan satuan gram
+                    //jika lebih creative weigth bisa di sesuaikan dengan ukuran dari suatu barang 
+                    'courier': 'jne'
+                },
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data);
+                    var results = data["rajaongkir"]["results"][0]["costs"];
+                    for (var i = 0; i < results.length; i++) {
+                        var text = results[i]["description"] + "(" + results[i]["service"] + ")";
+                        $("#service").append($('<option>', {
+                            value: results[i]["cost"][0]["value"],
+                            text: text,
+                            etd: results[i]["cost"][0]["etd"]
+                        }));
+                    }
+                },
+            });
+        })
     });
 </script>
 <?= $this->endSection() ?>

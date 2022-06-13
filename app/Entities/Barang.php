@@ -15,3 +15,4 @@ class Barang extends Entity
         return $this;
     }
 }
+    
