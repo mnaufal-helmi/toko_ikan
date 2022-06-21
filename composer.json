@@ -12,11 +12,12 @@
         "ext-mbstring": "*",
         "kint-php/kint": "^4.0",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "tecnickcom/tcpdf": "^6.4"
     },
     "require-dev": {
         "codeigniter/coding-standard": "1.2.*",
-        "fakerphp/faker": "^1.9",
+        "fakerphp/faker": "^1.19",
         "friendsofphp/php-cs-fixer": "3.2.*",
         "mikey179/vfsstream": "^1.6",
         "nexusphp/cs-config": "^3.3",
