@@ -15,6 +15,10 @@
   <!-- Bootstrap core CSS -->
   <link href="<?= base_url('bootstrap-4.0.0/dist/css/bootstrap.min.css')  ?>" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+
   <!-- Custom styles for this template -->
   <!-- <link href="starter-template.css" rel="stylesheet"> -->
   <style>

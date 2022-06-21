@@ -33,6 +33,38 @@ class Etalase extends BaseController
         $model = $modelBarang->find($id);
 
         $provinsi = $this->rajaongkir('province');
+
+        if ($this->request->getPost()) {
+            $data = $this->request->getPost();
+            $this->validation->run($data, 'transaksi');
+            $errors = $this->validation->getErrors();
+
+            if (!$errors) {
+                $transaksiModel = new \App\Models\TransaksiModel();
+                $transaksi = new \App\Entities\Transaksi();
+
+                $barangModel = new \App\Models\BarangModel();
+                $id_barang = $this->request->getPost('id_barang');
+                $jumlah_pembelian = $this->request->getPost('jumlah');
+                $barang = $barangModel->find($id_barang);
+                $entitiyBarang = new \App\Entities\Barang();
+
+                $entitiyBarang->id = $id_barang;
+
+                $entitiyBarang->stok = $barang->stok - $jumlah_pembelian;
+                $barangModel->save($entitiyBarang);
+
+                $transaksi->fill($data);
+                $transaksi->status = 0;
+                $transaksi->created_by = $this->session->get('id');
+                $transaksi->created_date = date("Y-m-d H:i:s");
+                $transaksiModel->save($transaksi);
+
+                $id = $transaksiModel->insertID();
+                $segment = ['transaksi', 'view', $id];
+                return redirect()->to(site_url($segment));
+            }
+        }
         return view('etalase/beli', [
             'model' => $model,
             'provinsi' => json_decode($provinsi)->rajaongkir->results,

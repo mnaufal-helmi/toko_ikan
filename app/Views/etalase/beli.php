@@ -106,12 +106,12 @@ $submit = [
                 <?= form_input($ongkir) ?>
             </div>
             <div class="form-group">
-                <?= form_label('Total harga', 'harga') ?>
-                <?= form_input($ongkir) ?>
+                <?= form_label('Total Harga', 'total_harga') ?>
+                <?= form_input($total_harga) ?>
             </div>
             <div class="form-group">
                 <?= form_label('Alamat', 'alamat') ?>
-                <?= form_input($ongkir) ?>
+                <?= form_input($alamat) ?>
             </div>
             <div class="text-right">
                 <?= form_submit($submit) ?>
@@ -126,6 +126,9 @@ $submit = [
 <?= $this->section('script') ?>
 <script>
     $('document').ready(function() {
+        var jumlah_pembelian = 1;
+        var harga = <?= $model->harga ?>;
+        var ongkir = 0;
         $("#provinsi").on('change', function() {
             $("#kabupaten").empty();
             var id_province = $(this).val();
@@ -175,7 +178,21 @@ $submit = [
                     }
                 },
             });
-        })
+        });
+
+        $("#service").on('change', function() {
+            var estimasi = $('option:selected', this).attr('etd');
+            ongkir = parseInt($(this).val());
+            $("#ongkir").val(ongkir);
+            $("#estimasi").html(estimasi + " Hari");
+            var total_harga = (jumlah_pembelian * harga) + ongkir;
+            $("#total_harga").val(total_harga);
+        });
+        $("#jumlah").on("change", function() {
+            jumlah_pembelian = $("#jumlah").val();
+            var total_harga = (jumlah_pembelian * harga) + ongkir;
+            $("#total_harga").val(total_harga);
+        });
     });
 </script>
-<?= $this->endSection() ?>
+<?= $this->endSection() ?>  

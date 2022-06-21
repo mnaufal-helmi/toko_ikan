@@ -24,8 +24,14 @@ $session = session();
               <li><a class="dropdown-item" href="<?= site_url('barang/create') ?>">Tambah Barang</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('transaksi/index') ?>">Transaksi </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('user/index') ?>"> User </a>
+          </li>
 
-          <!-- <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdo  wn">
           <a class="nav-link dropwdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Barang</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
