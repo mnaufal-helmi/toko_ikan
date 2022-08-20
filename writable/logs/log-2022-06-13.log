@@ -1,0 +1,117 @@
+CRITICAL - 2022-06-13 12:18:53 --> Undefined variable: harga
+#0 C:\xampp\htdocs\toko_ikan4\app\Views\etalase\beli.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(38): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli('14')
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 12:26:21 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_ikan4\app\Views\etalase\beli.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(38): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:18:28 --> Undefined property: CodeIgniter\Validation\Validation::$getErrors
+#0 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#2 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#3 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 13:22:16 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(58): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:23:02 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(58): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:35:52 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(59): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:42:11 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(61): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:46:38 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(61): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:50:14 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(61): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 13:54:14 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(61): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:30:30 --> Allowed fields must be specified for model: App\Models\TransaksiModel
+#0 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tran...')
+#1 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\toko_ikan4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\toko_ikan4\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Transaksi), false)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(61): CodeIgniter\BaseModel->save(Object(App\Entities\Transaksi))
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

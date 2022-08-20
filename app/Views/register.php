@@ -1,5 +1,5 @@
 <?= $this->extend('layout') ?>
-<?= $this->section('content')?>
+<?= $this->section('content') ?>
 <?php
 $username = [
     'name' => 'username',
@@ -51,7 +51,7 @@ $errors = $session->getFlashdata('errors');
 </div>
 
 <div class="text-right">
-    <?= form_submit('submit', 'Submit', ['class' => 'btn btn-primary']) ?>
+    <?= form_submit('submit', 'Submit', ['class' => 'btn btn-info']) ?>
 </div>
 <?= form_close() ?>
 <?= $this->endSection() ?>

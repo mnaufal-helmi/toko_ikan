@@ -63,7 +63,7 @@ class Auth extends BaseController
                     $sessData = [
                         'username' => $user->username,
                         'id' => $user->id,
-                        'role' => $user->role, 
+                        'role' => $user->role,
                         'isLoggedIn' => TRUE
                     ];
 
@@ -78,6 +78,18 @@ class Auth extends BaseController
         }
         return view('login');
     }
+    public function forgot_password()
+    {
+        $validation = [
+            'password' => 'required',
+            'repassword' => 'required|matches[password]'
+        ];
+        if (!$this->validate($validation)) {
+            return redirect()->to(base_url('/forgot_password'))->with('error', $this->validator->listErrors());
+        }
+    }
+
+
     public function logout()
     {
         $this->session->destroy();

@@ -1,0 +1,19 @@
+ERROR - 2022-06-20 12:30:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-20 12:30:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\toko_ikan4\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\toko_ikan4\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\toko_ikan4\system\Database\Seeder.php(98): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\xampp\htdocs\toko_ikan4\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\xampp\htdocs\toko_ikan4\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\toko_ikan4\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\toko_ikan4\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'TestSeederphp', 'spark', 'db:seed', 'TestSeeder')
+#8 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\toko_ikan4\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\toko_ikan4\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-06-20 12:38:29 --> Table 'toko_ikan.users' doesn't exist

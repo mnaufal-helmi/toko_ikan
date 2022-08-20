@@ -20,7 +20,7 @@
     <p>
         <i>Bratayudha Aquarium</i><br>
         Garut, Indonesia <br>
-        082127xxxx
+        +6287773142250
     </p>
     <hr>
     <hr>

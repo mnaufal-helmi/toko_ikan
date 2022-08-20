@@ -2,7 +2,7 @@
 $session = session();
 ?>
 <nav class="navbar navbar-expand-md navbar-dark  bg-info fixed-top">
-  <a class="navbar-brand" href="C:\xampp\htdocs\landing-page\index.html">Bratayudha Fish</a>
+  <a class="navbar-brand" href="">Bratayudha Fish</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,6 +27,14 @@ $session = session();
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('transaksi/index') ?>">Transaksi </a>
           </li>
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pembayaran
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="<?= site_url('pembayaran/index') ?>">List Konfirmasi Pembayaran</a></li>
+            </ul>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('user/index') ?>"> User </a>
           </li>
@@ -43,6 +51,24 @@ $session = session();
           <li class="nav-item">
             <a class="nav-link" href="<?= site_url('etalase/index') ?>">Etalase </a>
           </li>
+
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="<?= site_url('user/update') ?>"> profile</a>
+          </li> -->
+
+          <li class="nav-tem">
+            <a class="nav-link" href="<?= site_url('transaksi/index') ?>"> Transaksi </a>
+          </li>
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pembayaran
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="<?= site_url('pembayaran/index') ?>">List Konfirmasi Pembayaran</a></li>
+              <li><a class="dropdown-item" href="<?= site_url('pembayaran/create') ?>">Tambah Data Konfirmasi Pembayaran</a></li>
+            </ul>
+          </li>
         <?php endif ?>
       </ul>
     <?php endif ?>
@@ -50,15 +76,16 @@ $session = session();
       <ul class="navbar-nav mr-auto">
         <?php if ($session->get('isLoggedIn')) : ?>
           <li class="nav-item">
-            <a class="btn btn-light" href="<?= site_url('auth/logout') ?>">Logout</a>
-          </li>
+            <a class="btn btn-info" href="<?= site_url('auth/logout') ?>">Logout</a>
+          </li>&nbsp;
         <?php else : ?>
           <li class="nav-item">
-            <a class="btn btn-light" href="<?= site_url('auth/login') ?>">login</a>
-          </li>
+            <a class="btn btn-info" href="<?= site_url('auth/login') ?>">login</a>
+          </li>&nbsp;
           <li class="nav-item">
-            <a class="btn btn-light" href="<?= site_url('auth/register') ?>">Register</a>
-          </li>
+            <a class="btn btn-info" href="<?= site_url('auth/register') ?>">Register</a>
+          </li>&nbsp;
+
         <?php endif ?>
       </ul>
     </div>

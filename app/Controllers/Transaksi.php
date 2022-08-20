@@ -19,12 +19,12 @@ class Transaksi extends BaseController
     public function view()
     {
         $id = $this->request->uri->getSegment(3);
-
         $transaksiModel = new \App\Models\TransaksiModel();
         $transaksi = $transaksiModel->select('*, transaksi.id AS id_trans')->join('barang', 'barang.id=transaksi.id_barang')
             ->join('user', 'user.id=transaksi.id_pembeli')
             ->where('transaksi.id', $id)
             ->first();
+
 
         return view('transaksi/view', [
             'transaksi' => $transaksi,
@@ -34,7 +34,15 @@ class Transaksi extends BaseController
     public function index()
     {
         $transaksiModel = new \App\Models\TransaksiModel();
-        $model = $transaksiModel->findAll();
+        $user_role = session('role');
+        if ($user_role != 0) {
+
+            $user_id = session('id');
+            $model = $transaksiModel->where('created_by', $user_id)->findAll();
+        } else {
+            $model = $transaksiModel->findAll();
+        }
+
         return view('transaksi/index.php', [
             'model' => $model,
         ]);
@@ -80,5 +88,14 @@ class Transaksi extends BaseController
 
         ob_end_clean();
         $pdf->Output('Invoice.pdf', 'I');
+    }
+    public function delete()
+    {
+        $id = $this->request->uri->getSegment(3);
+
+        $modelTransaksi = new \App\Models\TransaksiModel();
+        $delete = $modelTransaksi->delete($id);
+
+        return redirect()->to(site_url('transaksi/index'));
     }
 }

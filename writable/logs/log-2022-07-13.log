@@ -1,0 +1,50 @@
+CRITICAL - 2022-07-13 04:07:06 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\toko_ikan4\app\Controllers\User.php(22): view('user/index', Array)
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 04:10:34 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\toko_ikan4\app\Controllers\User.php(22): view('user/index', Array)
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 04:10:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\toko_ikan4\app\Controllers\User.php(22): view('user/index', Array)
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 04:10:46 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\toko_ikan4\app\Controllers\User.php(22): view('user/index', Array)
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 04:10:47 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#3 C:\xampp\htdocs\toko_ikan4\app\Controllers\User.php(22): view('user/index', Array)
+#4 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

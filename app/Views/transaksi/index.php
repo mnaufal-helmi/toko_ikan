@@ -14,11 +14,15 @@
         </tr>
     </thead>
     <tbody>
+        <!-- get id -> session -> id = filter di transaksi -->
+
         <?php
 
         use App\Controllers\Transaksi;
 
+
         foreach ($model as $index => $transaksi) : ?>
+
             <tr>
                 <td><?= $transaksi->id ?></td>
                 <td><?= $transaksi->id_barang ?></td>
@@ -27,12 +31,25 @@
                 <td><?= $transaksi->jumlah ?></td>
                 <td><?= $transaksi->total_harga ?></td>
                 <td>
-                    <a href="<?= site_url('transaksi/view/' . $transaksi->id) ?>" class="btn btn-primary">view </a>
-                    <a href="<?= site_url('transaksi/invoice/' . $transaksi->id) ?>" class="btn btn-info">invoice </a>
+                    <?php if (session()->get('role') != 0) : ?>
 
+                        <a href="<?= site_url('transaksi/view/' . $transaksi->id) ?>" class="btn btn-outline-info">view </a>
+
+                    <?php else : ?>
+
+                        <a href="<?= site_url('transaksi/view/' . $transaksi->id) ?>" class=" btn btn-secondary">view </a>
+                        <a href="<?= site_url('transaksi/invoice/' . $transaksi->id) ?>" class="btn btn-outline-info">invoice </a>
+                        <a href="<?= site_url('transaksi/delete/' . $transaksi->id) ?>" class="btn btn-info">Delete</a>
+                    <?php endif ?>
                 </td>
             </tr>
+
         <?php endforeach ?>
     </tbody>
+
+
+
+
 </table>
+
 <?= $this->endSection() ?>

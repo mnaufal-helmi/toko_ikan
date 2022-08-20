@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-10 02:00:07 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_ikan4\app\Views\etalase\beli.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(37): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli()
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 02:01:15 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\toko_ikan4\app\Views\etalase\beli.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\toko_ikan4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\toko_ikan4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\toko_ikan4\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\toko_ikan4\app\Controllers\Etalase.php(37): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(832): App\Controllers\Etalase->beli('16')
+#6 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\toko_ikan4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\toko_ikan4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

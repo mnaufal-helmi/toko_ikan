@@ -9,7 +9,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         $faker = \Faker\Factory::create();
-        for ($i = 0; $i = 500; $i++) {
+        for ($i = 0; $i < 100; $i++) {
             $data = [
                 'username' => $faker->username,
                 'password' => $faker->password,

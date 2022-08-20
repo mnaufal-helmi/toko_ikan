@@ -169,4 +169,22 @@ class Validation
             'is_natural' => '{field} Tidak Boleh Negatif',
         ],
     ];
+    public $komentar = [
+        'komentar' => [
+            'rules' => 'required',
+        ],
+    ];
+    public $pembayaran = [
+        'nama' => [
+            'rules' => 'required|min_length[4]',
+        ],
+        'gambar' => [
+            'rules' => 'uploaded[gambar]',
+        ],
+    ];
+    public $pembayaranupdate = [
+        'nama' => [
+            'rules' => 'required|min_length[4]',
+        ],
+    ];
 }

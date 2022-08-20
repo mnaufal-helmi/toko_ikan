@@ -62,7 +62,7 @@ $submit = [
             <div class="card">
                 <div class="card-body">
                     <img class="img-fluid" src="<?= base_url('uploads/' . $model->gambar) ?>">
-                    <h1 class="text-success, text-info"><?= $model->nama ?></h1>
+                    <h1 class="text-info text justify"><?= $model->nama ?></h1>
                     <h4 class=""> Harga : <?= $model->harga ?></h4>
                     <h4> Stok : <?= $model->stok ?></h4>
                 </div>
@@ -89,6 +89,7 @@ $submit = [
                 <label for="service">Pilih service</label>
                 <select class="form-control" id="service">
                     <option> select service</option>
+
                 </select>
             </div>
 
@@ -117,6 +118,38 @@ $submit = [
                 <?= form_submit($submit) ?>
             </div>
             <?= form_close() ?>
+        </div>
+    </div>
+    <div class="row mb-3 mt-3">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Komentar</h4>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <a href="<?= site_url('Komentar/create/' . $model->id) ?>" class="btn btn-info">Click Untuk Berkomentar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <?php foreach ($komentar as $k) : ?>
+                                <?php
+                                $modelUser = new \App\Models\UserModel();
+                                $namaUser = $modelUser->find($k->id_user)->username;
+                                ?>
+                                <strong><?= $namaUser ?></strong>
+                                <br>
+                                <?= $k->komentar ?>
+                                <hr>
+                            <?php endforeach ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -195,4 +228,4 @@ $submit = [
         });
     });
 </script>
-<?= $this->endSection() ?>  
+<?= $this->endSection() ?>
